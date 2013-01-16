@@ -1,3 +1,7 @@
+;;Adapted from sal-mode version of Jon Gjengset aka Jonhoo
+;;https://gist.github.com/790945
+;;
+
 (add-to-list 'auto-mode-alist '("\\.sal\\'" . sal-mode))
 
 (setq sal-mode-syntax-table (make-syntax-table))
